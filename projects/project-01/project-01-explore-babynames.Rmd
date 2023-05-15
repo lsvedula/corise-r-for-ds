@@ -335,7 +335,7 @@ tbl_names_by_first_and_last_letter
 
 Now, you will visualize the distribution of `pct_births` by `last_letter` and `first_letter` by plotting a heatmap of the percentage of births by first letter and last letter for the year 2021.
 
-```{r question-4-visualize}
+```{r question-4-visualize, fig.width = 6, fig.asp = 1}
 tbl_names_by_first_and_last_letter |> 
   # Filter for the year 2021
   filter(year == 2021) |>
